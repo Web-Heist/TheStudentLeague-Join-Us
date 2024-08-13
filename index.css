@@ -1,0 +1,195 @@
+html body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    overflow-x: hidden;
+}
+
+.firstpagebg{
+    background-image:url(paperbg.jpg);
+    background-repeat:no-repeat; background-size:cover;
+    background-position:center; width:100%; height:155rem;}
+
+.firstpagebg ul{ margin-left:65%; margin-top:2rem; 
+    font-size:1.1rem; position:sticky; top:0; z-index:30;}
+.nav-link{color:rgba(225,200,159,255); font-weight:500;}
+
+
+.content h3{font-size:1.9rem; margin-top:2.5rem; margin-left:2.3%; position:absolute;
+     font-size:2.5rem; font-family:'Black Ops One',Impact,Fantasy; opacity:0; visibility: hidden;
+     color:rgba(225,200,159,255); animation-direction:normal; word-spacing:0.5rem; opacity:1;}
+
+     .t1{animation: t 4s 0s forwards ; animation-timing-function:linear;}
+     .t2{animation: t 0.5s 4s forwards ; animation-timing-function:linear;}
+     .t3{animation: t 2s 4.5s forwards ; animation-timing-function:linear;}
+     .t4{animation: t 2s 6.5s forwards ; animation-timing-function:linear;}
+     .t5{animation: t 0.5s 8.5s forwards ; animation-timing-function:linear;}
+     .t6{animation: t 2s 9s forwards ; animation-timing-function:linear;}
+     .t7{animation: t 2s 11s forwards ; animation-timing-function:linear;}
+     .t8{animation: t 0.5s 13s forwards ; animation-timing-function:linear;}
+     .t9{animation: t 2s 13.5s forwards ; animation-timing-function:linear;}
+     .t10{animation: t 2s 15.5s forwards ; animation-timing-function:linear;}
+     .t11{animation: t 3s 17.5s forwards ; animation-timing-function:linear;}
+
+.text.show {
+    visibility: visible;
+  }
+
+.logobg{background-image:url(tslleft.png);
+    background-repeat:no-repeat; background-size:cover;
+    background-position:center; margin-top:-6rem;
+     width:100%; height:18rem; position: absolute; }
+.logo{ width:28%; height:18rem; position:absolute;
+    margin-top:-6rem; margin-left:35%; z-index:20; }
+
+.donationpic{width:25rem; height:20rem; z-index:10; position:absolute; margin-left:50rem; margin-top:100rem;}
+.content h4{margin-top:100rem; position:absolute; background-image : linear-gradient(to right,rgb(82, 82, 82),rgb(3, 32, 49));
+    color:white; margin-left:5%; width:30rem; height:4rem; text-align:center; align-content:center;
+    font-family:'Anton'; font-size:2rem;
+}
+.content h5{
+    margin-top:107rem; position:absolute; background-image : linear-gradient(to right,rgb(82, 82, 82),rgb(3, 32, 49));
+    color:white; margin-left:5%; width:19rem; height:2.5rem; text-align:center; align-content:center;
+    font-family:'Alegreya'; font-size:1.9rem;
+}
+.content p1{position:absolute; font-size:2rem; margin-top:110rem; margin-left:5%; color:black; font-family:'Alegreya';}
+
+.content h6{
+    margin-top:114rem; position:absolute; background-image : linear-gradient(to right,rgb(82, 82, 82),rgb(3, 32, 49));
+    color:white; margin-left:5%; width:15rem; height:2.5rem; text-align:center; align-content:center;
+    font-family:'Alegreya'; font-size:1.9rem;
+}
+.content p2 a{position:absolute; font-size:2rem; margin-top:117rem; margin-left:5%; color:black; font-family:'Alegreya';}
+
+
+.content h7{margin-top:124rem; position:absolute; background-image : linear-gradient(to right,rgb(82, 82, 82),rgb(3, 32, 49));
+    color:white; margin-left:8%; width:16rem; height:3.5rem; text-align:center; align-content:center;
+    font-family:'Anton'; font-size:2rem;
+}
+.content h8{
+    margin-top:130rem; position:absolute; background-image : linear-gradient(to right,rgb(82, 82, 82),rgb(3, 32, 49));
+    color:white; margin-left:8%; width:13rem; height:2.5rem; text-align:center; align-content:center;
+    font-family:'Alegreya'; font-size:1.9rem;
+}
+.content p3 a{position:absolute; font-size:2rem; margin-top:133rem; margin-left:8%; color:black; font-family:'Alegreya';}
+
+.content h9{
+    margin-top:137rem; position:absolute; background-image : linear-gradient(to right,rgb(82, 82, 82),rgb(3, 32, 49));
+    color:white; margin-left:8%; width:14rem; height:2.5rem; text-align:center; align-content:center;
+    font-family:'Alegreya'; font-size:1.9rem;
+}
+.content p4 a{position:absolute; font-size:2rem; margin-top:140rem; margin-left:8%; color:black; font-family:'Alegreya';}
+
+
+
+.content h2{background-image : linear-gradient(to right,rgba(225,200,159,255),rgb(167, 151, 87)); margin-top:15rem;
+     color: #3f3d3d; width:52rem; height:6rem; align-content:center; text-align:center; word-spacing:0.2rem; position:absolute;
+     border-radius:5%; margin-left:20.5%; font-size:2.5rem; font-family:'Black Ops One',Impact,Fantasy;
+    }
+
+.contactfrm{ position: absolute; background-image : linear-gradient(to right,rgb(167, 151, 87),rgba(255, 255, 254, 0.685));
+    margin-top:24rem; width:60%;  border-radius:10%; margin-left:18%; height:67rem;
+}
+.contactfrm label{
+    font-size:2.1rem; color:#3f3d3d; width:max-content; margin-left:4%; margin-top:4%;
+    font-family:'Anton';
+}
+
+.contactfrm input{font-size:1.9rem; margin-left:2%; text-align:center; color:rgb(23, 24, 24); background-color:#ebebe9;
+}
+.contactfrm b{font-size:1.6rem; color: #302f2f;
+}
+.gender1[type="radio"]{
+    margin-left:2rem; transform: scale(2); width:2rem;
+}
+    .gender2[type="radio"]{
+    margin-left:10.4rem; transform: scale(2); width:2rem;
+    }
+.question{margin-bottom:1.5rem;
+}
+.ckb[type="checkbox"]{
+    transform: scale(2); width:4rem;
+}
+.netckb[type="checkbox"]{
+    transform: scale(2); margin:0.5rem;
+}
+.em{
+    margin-top:50rem;
+}
+.dropdown-menu{width:20rem;}
+.dropdown-menu b{font-size:1rem; margin-left:0.5rem;}
+.dropdown button{height:3.5rem; margin-left:1rem; margin-top:3.5rem; margin-bottom:2.5rem; font-size:1.3rem;
+}
+
+
+@keyframes t{
+    0% {
+        visibility:visible;
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+  }
+
+
+  @media  only screen and ( width = 1366px) { html{font-size:80%;} html body{ width:100%; overflow-x:hidden;}
+.gender2[type="radio"]{margin-left:10.8rem; transform: scale(2); width:2rem;}
+}
+@media  only screen and ( width = 1280px) { html{font-size:70%;} html body{ width:100%; overflow-x:hidden;}
+.ckb[type="checkbox"]{transform: scale(1.4); width:4rem;}
+.netckb[type="checkbox"]{transform: scale(1.4); margin:0.5rem;}
+.gender1[type="radio"]{margin-left:2rem; transform: scale(1.3); width:2rem;}
+.gender2[type="radio"]{margin-left:10.9rem; transform: scale(1.3); width:2rem;}
+}
+@media  only screen and ( width = 1024px) { html{font-size:65%;} html body{ width:100%; overflow-x:hidden;}
+.ckb[type="checkbox"]{transform: scale(1.3); width:4rem;}
+.netckb[type="checkbox"]{transform: scale(1.3); margin:0.5rem;}
+.gender1[type="radio"]{margin-left:2rem; transform: scale(1.2); width:2rem;}
+.gender2[type="radio"]{margin-left:10.4rem; transform: scale(1.2); width:2rem;}
+}
+@media  only screen and ( width = 912px) { html{font-size:60%;} html body{ width:100%; overflow-x:hidden;}
+.ckb[type="checkbox"]{transform: scale(1.2); width:4rem;}
+.netckb[type="checkbox"]{transform: scale(1.2); margin:0.5rem;}
+.gender1[type="radio"]{margin-left:2rem; transform: scale(1.2); width:2rem;}
+.gender2[type="radio"]{margin-left:10.31rem; transform: scale(1.2); width:2rem;}
+}
+@media  only screen and ( width = 820px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;}
+.ckb[type="checkbox"]{transform: scale(1.3); width:4rem;}
+.netckb[type="checkbox"]{transform: scale(1.3); margin:0.5rem;}
+.gender1[type="radio"]{margin-left:2rem; transform: scale(1.2); width:2rem;}
+.gender2[type="radio"]{margin-left:10.4rem; transform: scale(1.2); width:2rem;}
+}
+@media  only screen and ( width = 800px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;}
+.ckb[type="checkbox"]{transform: scale(1.3); width:4rem;}
+.netckb[type="checkbox"]{transform: scale(1.3); margin:0.5rem;}
+.gender1[type="radio"]{margin-left:2rem; transform: scale(1.2); width:2rem;}
+.gender2[type="radio"]{margin-left:10.4rem; transform: scale(1.2); width:2rem;}
+}
+@media  only screen and ( width = 768px) { html{font-size:52%;} html body{ width:100%; overflow-x:hidden;}
+.ckb[type="checkbox"]{transform: scale(1.3); width:4rem;}
+.netckb[type="checkbox"]{transform: scale(1.3); margin:0.5rem;}
+.gender1[type="radio"]{margin-left:2rem; transform: scale(1.2); width:2rem;}
+.gender2[type="radio"]{margin-left:10.3rem; transform: scale(1.2); width:2rem;}
+}
+@media  only screen and ( width = 712px) { html{font-size:49%;} html body{ width:100%; overflow-x:hidden;}
+.ckb[type="checkbox"]{transform: scale(1.3); width:4rem;}
+.netckb[type="checkbox"]{transform: scale(1.3); margin:0.5rem;}
+.gender1[type="radio"]{margin-left:2rem; transform: scale(1.2); width:2rem;}
+.gender2[type="radio"]{margin-left:10.3rem; transform: scale(1.2); width:2rem;}
+}
+
+ @media  only screen and (width <= 700px) { html{font-size:50%;} 
+ .logo{margin-top:-9rem; margin-left:23%; width:22rem;}
+ .logobg{top:0; height:22rem;}
+ .content h2{margin-left:5.5%; width:40rem; font-size:2rem; height:5rem; margin-top:12.5rem;}
+ .contactfrm{width:38rem; margin-left:7%; height:68.5rem; margin-top:20rem; }
+ .donationpic{width:15rem; height:12rem; margin-top:106.5rem; margin-left:64%;}
+ html body{ width:100%; overflow-x:hidden;} 
+ .content h3{font-family:'Black Ops One',Impact,gFantasy; font-size:1.5rem; word-spacing:0.1rem; margin-top:-0.5rem;}
+ .ckb[type="checkbox"]{transform: scale(1.3); width:4rem;}
+.netckb[type="checkbox"]{transform: scale(1.3); margin:0.5rem;}
+.gender1[type="radio"]{margin-left:2rem; transform: scale(1.2); width:2rem;}
+.gender2[type="radio"]{margin-left:9.7rem; transform: scale(1.2); width:2rem;}
+ .firstpagebg{width:100%; overflow-x:hidden;}
+}
